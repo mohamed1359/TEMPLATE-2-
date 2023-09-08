@@ -725,7 +725,7 @@ video {
 
 .information .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(394px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     grid-column-gap: 100px;
 }
 
@@ -735,7 +735,7 @@ video {
     }
 }
 
-@media (max-width:412px) {
+@media (max-width:414px) {
     .information .container {
         grid-template-columns: repeat(auto-fill, minmax(251px, 1fr));
     }
