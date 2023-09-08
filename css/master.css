@@ -735,6 +735,13 @@ video {
     }
 }
 
+@media (max-width:300px) {
+    .information .container {
+        grid-template-columns: repeat(auto-fill, minmax(251px, 1fr));
+
+    }
+}
+
 .information .container .col-1,
 .col-2 {
     position: relative;
