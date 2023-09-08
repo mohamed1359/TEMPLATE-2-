@@ -735,10 +735,9 @@ video {
     }
 }
 
-@media (max-width:300px) {
+@media (max-width:412px) {
     .information .container {
         grid-template-columns: repeat(auto-fill, minmax(251px, 1fr));
-
     }
 }
 
